@@ -4,8 +4,8 @@ import '../../../size_config.dart';
 
 class Tabs extends StatelessWidget {
   const Tabs({
-    Key key,
-    @required this.press,
+    Key? key,
+    required this.press,
   }) : super(key: key);
 
   final ValueChanged<int> press;

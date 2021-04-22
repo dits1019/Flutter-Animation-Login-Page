@@ -4,7 +4,7 @@ import '../../../size_config.dart';
 
 class Land extends StatelessWidget {
   const Land({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

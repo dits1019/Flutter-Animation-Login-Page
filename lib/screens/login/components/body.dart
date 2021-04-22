@@ -94,7 +94,7 @@ class _BodyState extends State<Body> {
                   VerticalSpacing(),
                   Text(
                     "Good Morning",
-                    style: Theme.of(context).textTheme.headline3.copyWith(
+                    style: Theme.of(context).textTheme.headline3!.copyWith(
                         fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                   VerticalSpacing(of: 10),

@@ -4,12 +4,12 @@ import '../../../size_config.dart';
 
 class RoundedTextField extends StatelessWidget {
   const RoundedTextField({
-    Key key,
+    Key? key,
     this.initialValue,
     this.hintText,
   }) : super(key: key);
 
-  final String initialValue, hintText;
+  final String? initialValue, hintText;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class RoundedTextField extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          hintText,
+          hintText!,
           style: TextStyle(color: Colors.white60),
         ),
         VerticalSpacing(of: 10),

@@ -6,9 +6,9 @@ import '../../../size_config.dart';
 class Sun extends StatelessWidget {
   //Sun
   const Sun({
-    Key key,
-    @required Duration duration,
-    @required this.isFullSun,
+    Key? key,
+    required Duration duration,
+    required this.isFullSun,
   })  : _duration = duration,
         super(key: key);
 
